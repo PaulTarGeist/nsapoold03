@@ -10,7 +10,7 @@
         throw new Exception('not allowed to access this file');
       }
     } catch (Exception $e) {
-        echo 'Exception reçue : ',  $e->getMessage(), "\n";
+      echo 'Exception reçue : ',  $e->getMessage(), "\n";
     }
 
 ?>
